@@ -53,9 +53,9 @@ const Product = mongoose.model("product", productSchema);
 
 
 
+app.get('/',(req,res)=>{res.send('helloo....')})
 
-
-
+app.get('/pro',(req,res)=>{res.json({messgae:"wohoooo i got json data"})})
 
 
 
